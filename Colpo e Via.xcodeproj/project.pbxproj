@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3F252D2AF6119F0000D759 /* ActiveNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F252C2AF6119F0000D759 /* ActiveNowView.swift */; };
+		4C3F25302AF611CC0000D759 /* Loginview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F252F2AF611CC0000D759 /* Loginview.swift */; };
+		4C3F25322AF611ED0000D759 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25312AF611ED0000D759 /* RegistrationView.swift */; };
+		4C3F25342AF612200000D759 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25332AF612200000D759 /* InboxView.swift */; };
+		4C3F25362AF612360000D759 /* InboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25352AF612360000D759 /* InboxRowView.swift */; };
+		4C3F25382AF6124C0000D759 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25372AF6124C0000D759 /* NewMessageView.swift */; };
 		795DCD882AE219ED001C05F9 /* Colpo_e_ViaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795DCD872AE219ED001C05F9 /* Colpo_e_ViaApp.swift */; };
 		795DCD8A2AE219ED001C05F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795DCD892AE219ED001C05F9 /* ContentView.swift */; };
 		795DCD8C2AE21A03001C05F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795DCD8B2AE21A03001C05F9 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C3F252C2AF6119F0000D759 /* ActiveNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNowView.swift; sourceTree = "<group>"; };
+		4C3F252F2AF611CC0000D759 /* Loginview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginview.swift; sourceTree = "<group>"; };
+		4C3F25312AF611ED0000D759 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		4C3F25332AF612200000D759 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		4C3F25352AF612360000D759 /* InboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRowView.swift; sourceTree = "<group>"; };
+		4C3F25372AF6124C0000D759 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
 		795DCD842AE219ED001C05F9 /* Colpo e Via.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colpo e Via.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		795DCD872AE219ED001C05F9 /* Colpo_e_ViaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colpo_e_ViaApp.swift; sourceTree = "<group>"; };
 		795DCD892AE219ED001C05F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C3F25212AF611210000D759 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				795DCD872AE219ED001C05F9 /* Colpo_e_ViaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4C3F25222AF6112B0000D759 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4C3F25232AF611370000D759 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F252A2AF611860000D759 /* ActiveNow */,
+				4C3F25292AF611740000D759 /* Authentication */,
+				4C3F25282AF6116E0000D759 /* Inbox */,
+				4C3F25272AF611690000D759 /* Root */,
+				4C3F25262AF6115D0000D759 /* NewMessage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4C3F25242AF611420000D759 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C3F25252AF6114B0000D759 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4C3F25262AF6115D0000D759 /* NewMessage */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F25372AF6124C0000D759 /* NewMessageView.swift */,
+			);
+			path = NewMessage;
+			sourceTree = "<group>";
+		};
+		4C3F25272AF611690000D759 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		4C3F25282AF6116E0000D759 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F25332AF612200000D759 /* InboxView.swift */,
+				4C3F25352AF612360000D759 /* InboxRowView.swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		4C3F25292AF611740000D759 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F252E2AF611BC0000D759 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		4C3F252A2AF611860000D759 /* ActiveNow */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F252C2AF6119F0000D759 /* ActiveNowView.swift */,
+			);
+			path = ActiveNow;
+			sourceTree = "<group>";
+		};
+		4C3F252E2AF611BC0000D759 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F252F2AF611CC0000D759 /* Loginview.swift */,
+				4C3F25312AF611ED0000D759 /* RegistrationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		795DCD7B2AE219ED001C05F9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,7 +153,11 @@
 		795DCD862AE219ED001C05F9 /* Colpo e Via */ = {
 			isa = PBXGroup;
 			children = (
-				795DCD872AE219ED001C05F9 /* Colpo_e_ViaApp.swift */,
+				4C3F25222AF6112B0000D759 /* Extensions */,
+				4C3F25212AF611210000D759 /* App */,
+				4C3F25232AF611370000D759 /* Core */,
+				4C3F25242AF611420000D759 /* Model */,
+				4C3F25252AF6114B0000D759 /* Service */,
 				795DCD892AE219ED001C05F9 /* ContentView.swift */,
 				795DCD8B2AE21A03001C05F9 /* Assets.xcassets */,
 				795DCD8D2AE21A03001C05F9 /* Preview Content */,
@@ -137,8 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3F25362AF612360000D759 /* InboxRowView.swift in Sources */,
+				4C3F25382AF6124C0000D759 /* NewMessageView.swift in Sources */,
+				4C3F252D2AF6119F0000D759 /* ActiveNowView.swift in Sources */,
+				4C3F25342AF612200000D759 /* InboxView.swift in Sources */,
 				795DCD8A2AE219ED001C05F9 /* ContentView.swift in Sources */,
+				4C3F25302AF611CC0000D759 /* Loginview.swift in Sources */,
 				795DCD882AE219ED001C05F9 /* Colpo_e_ViaApp.swift in Sources */,
+				4C3F25322AF611ED0000D759 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
